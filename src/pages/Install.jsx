@@ -1,6 +1,6 @@
 import React from "react";
 
-const InstallApps = () => {
+const Install = () => {
   return (
     <div>
       <h1>installed apps </h1>
@@ -8,4 +8,4 @@ const InstallApps = () => {
   );
 };
 
-export default InstallApps;
+export default Install;

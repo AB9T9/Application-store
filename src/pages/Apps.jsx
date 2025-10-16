@@ -1,6 +1,6 @@
 import React from "react";
 
-const Allapps = () => {
+const Apps = () => {
   return (
     <div>
       <h1>All apps</h1>
@@ -8,4 +8,4 @@ const Allapps = () => {
   );
 };
 
-export default Allapps;
+export default Apps;
