@@ -4,6 +4,7 @@ import Home from "../pages/Home";
 import Root from "../Root/Root";
 import Apps from "../pages/Apps";
 import Install from "../pages/Install";
+import Details from "../pages/Details";
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path: "/home",
         element: <Home></Home>,
+      },
+      {
+        path: "/details/:id",
+        element: <Details></Details>,
       },
     ],
   },

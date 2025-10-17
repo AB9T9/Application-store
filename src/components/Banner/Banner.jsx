@@ -18,11 +18,19 @@ const Banner = () => {
           into digital experiences that truly make an impact.
         </p>
         <div className="flex justify-center items-center gap-4">
-          <NavLink className="btn-outline flex items-center gap-2 btn">
+          <NavLink
+            target="_blank"
+            className="btn-outline flex items-center gap-2 btn"
+            to="https://play.google.com/store/apps?hl=en"
+          >
             <img src={googleplay} alt="" className="w-6" />
             Google Play
           </NavLink>
-          <NavLink className="btn-outline btn flex items-center gap-2">
+          <NavLink
+            className="btn-outline btn flex items-center gap-2"
+            to="https://www.apple.com/app-store/"
+            target="_blank"
+          >
             {" "}
             <img src={appstore} alt="" className="w-6" />
             App Store

@@ -27,7 +27,7 @@ const Apps = () => {
         </p>
       </div>
       <div className="flex justify-between px-5 my-4">
-        <p className="text-xl font-semibold">({appsData.length}) Apps Found</p>
+        <p className="text-xl font-semibold">({searched.length}) Apps Found</p>
         <input
           onChange={(e) => setPassword(e.target.value)}
           defaultValue={password}
@@ -41,6 +41,11 @@ const Apps = () => {
           <Cart key={apps.id} apps={apps}></Cart>
         ))}
       </div>
+      {searched.length === 0 ? (
+        <img src={appsNotFound} alt="" className="max-w-4xl mx-auto mt-2" />
+      ) : (
+        ""
+      )}
     </div>
   );
 };

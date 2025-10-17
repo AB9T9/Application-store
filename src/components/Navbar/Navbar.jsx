@@ -28,9 +28,9 @@ const Navbar = () => {
             tabIndex="-1"
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
           >
-            <NavLink to="/home">Home</NavLink>
-            <NavLink to="/apps">Apps</NavLink>
-            <NavLink to="/install">Installation</NavLink>
+            <NavLink to="/home text-xl">Home</NavLink>
+            <NavLink to="/apps text-xl ">Apps</NavLink>
+            <NavLink to="/install text-xl">Installation</NavLink>
           </ul>
         </div>
         <NavLink to="/home" className="btn btn-ghost text-xl ">

@@ -6,7 +6,7 @@
     "id": 1,
     "description": "Stream millions of songs and podcasts. Listen offline and personalize playlists.",
     "size": 60,
-    "reviews": 29500000,
+    "reviews": 29,
     "ratingAvg": 4.4,
     "downloads": "1B",
     "ratings": [
@@ -24,7 +24,7 @@
     "id": 2,
     "description": "Share your moments, follow friends, and explore the world through photos and videos.",
     "size": 120,
-    "reviews": 150000000,
+    "reviews": 15,
     "ratingAvg": 4.0,
     "downloads": "5B",
     "ratings": [
@@ -42,7 +42,7 @@
     "id": 3,
     "description": "Short-form videos for every interest. Create, watch, and share endlessly.",
     "size": 95,
-    "reviews": 53000000,
+    "reviews": 53,
     "ratingAvg": 4.5,
     "downloads": "5B",
     "ratings": [
@@ -60,7 +60,7 @@
     "id": 4,
     "description": "Share moments instantly and stay connected with friends through Snaps.",
     "size": 85,
-    "reviews": 32000000,
+    "reviews": 32,
     "ratingAvg": 4.2,
     "downloads": "1B",
     "ratings": [
@@ -78,7 +78,7 @@
     "id": 5,
     "description": "Design stunning graphics, videos, and social media posts easily.",
     "size": 55,
-    "reviews": 14000000,
+    "reviews": 14,
     "ratingAvg": 4.8,
     "downloads": "500M",
     "ratings": [
@@ -96,7 +96,7 @@
     "id": 6,
     "description": "Fast, secure messaging with cloud sync and privacy features.",
     "size": 38,
-    "reviews": 14000000,
+    "reviews": 14,
     "ratingAvg": 4.5,
     "downloads": "1B",
     "ratings": [
@@ -114,7 +114,7 @@
     "id": 7,
     "description": "Real-time GPS navigation, traffic, and local business information.",
     "size": 150,
-    "reviews": 18000000,
+    "reviews": 18,
     "ratingAvg": 4.3,
     "downloads": "10B",
     "ratings": [
@@ -132,7 +132,7 @@
     "id": 8,
     "description": "Learn languages for free with fun and interactive lessons.",
     "size": 40,
-    "reviews": 19000000,
+    "reviews": 19,
     "ratingAvg": 4.7,
     "downloads": "500M",
     "ratings": [
@@ -150,7 +150,7 @@
     "id": 9,
     "description": "Stream your favorite movies, TV shows, and exclusive Netflix Originals.",
     "size": 70,
-    "reviews": 15000000,
+    "reviews": 15,
     "ratingAvg": 4.3,
     "downloads": "1B",
     "ratings": [
@@ -168,7 +168,7 @@
     "id": 10,
     "description": "Shop millions of products and track orders with ease.",
     "size": 80,
-    "reviews": 24000000,
+    "reviews": 24,
     "ratingAvg": 4.4,
     "downloads": "1B",
     "ratings": [
@@ -187,7 +187,7 @@
     "id": 11,
     "description": "Stream millions of songs and podcasts. Listen offline and personalize playlists.",
     "size": 60,
-    "reviews": 29500000,
+    "reviews": 29,
     "ratingAvg": 4.4,
     "downloads": "1B",
     "ratings": [
@@ -205,7 +205,7 @@
     "id": 12,
     "description": "Share your moments, follow friends, and explore the world through photos and videos.",
     "size": 120,
-    "reviews": 150000000,
+    "reviews": 15,
     "ratingAvg": 4.0,
     "downloads": "5B",
     "ratings": [
@@ -223,7 +223,7 @@
     "id": 13,
     "description": "Short-form videos for every interest. Create, watch, and share endlessly.",
     "size": 95,
-    "reviews": 53000000,
+    "reviews": 53,
     "ratingAvg": 4.5,
     "downloads": "5B",
     "ratings": [
@@ -241,7 +241,7 @@
     "id": 14,
     "description": "Share moments instantly and stay connected with friends through Snaps.",
     "size": 85,
-    "reviews": 32000000,
+    "reviews": 32,
     "ratingAvg": 4.2,
     "downloads": "1B",
     "ratings": [
@@ -259,7 +259,7 @@
     "id": 15,
     "description": "Design stunning graphics, videos, and social media posts easily.",
     "size": 55,
-    "reviews": 14000000,
+    "reviews": 140,
     "ratingAvg": 4.8,
     "downloads": "500M",
     "ratings": [
@@ -277,7 +277,7 @@
     "id": 16,
     "description": "Fast, secure messaging with cloud sync and privacy features.",
     "size": 38,
-    "reviews": 14000000,
+    "reviews": 140,
     "ratingAvg": 4.5,
     "downloads": "1B",
     "ratings": [
@@ -295,7 +295,7 @@
     "id": 17,
     "description": "Real-time GPS navigation, traffic, and local business information.",
     "size": 150,
-    "reviews": 18000000,
+    "reviews": 18,
     "ratingAvg": 4.3,
     "downloads": "10B",
     "ratings": [
@@ -313,7 +313,7 @@
     "id": 18,
     "description": "Learn languages for free with fun and interactive lessons.",
     "size": 40,
-    "reviews": 19000000,
+    "reviews": 190,
     "ratingAvg": 4.7,
     "downloads": "500M",
     "ratings": [
@@ -331,7 +331,7 @@
     "id": 19,
     "description": "Stream your favorite movies, TV shows, and exclusive Netflix Originals.",
     "size": 70,
-    "reviews": 15000000,
+    "reviews": 150,
     "ratingAvg": 4.3,
     "downloads": "1B",
     "ratings": [
@@ -349,7 +349,7 @@
     "id": 20,
     "description": "Shop millions of products and track orders with ease.",
     "size": 80,
-    "reviews": 24000000,
+    "reviews": 24,
     "ratingAvg": 4.4,
     "downloads": "1B",
     "ratings": [

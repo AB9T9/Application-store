@@ -11,7 +11,7 @@ const Home = () => {
     return <Loading></Loading>;
   }
   const filterd = apps.slice(0, 8);
-  console.log(filterd);
+
   return (
     <div>
       <div className=" mx-auto mt-5">
