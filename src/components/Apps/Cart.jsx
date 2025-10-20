@@ -8,9 +8,9 @@ const Cart = ({ apps }) => {
       <div className="card bg-base-100  shadow-sm">
         <figure className="px-2 py-2">
           <img
-            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+            src={apps.image}
             alt="Shoes"
-            className="rounded-xl"
+            className="rounded-xl w-42 h-42 object-cover"
           />
         </figure>
         <div className="card-body items-center text-center">

@@ -1,4 +1,3 @@
-import React from "react";
 import { useParams } from "react-router";
 import { useApps } from "../Hook/useApps";
 import Loading from "../components/loading/Loading";
@@ -14,13 +13,25 @@ import {
   Legend,
   CartesianGrid,
 } from "recharts";
+import { getApps, setApps } from "../components/utilities/Addtocart";
+import { useEffect, useState } from "react";
 
 const Details = () => {
+  const [installedApps, setInstallApps] = useState([]);
   const { id } = useParams();
   const ids = Number(id);
-  console.log(ids);
-  const [apps, loading] = useApps();
 
+  const [apps, loading] = useApps();
+  const installHandel = (id) => {
+    setApps(id);
+    setInstallApps([...installedApps, id]);
+  };
+  const exits = installedApps.find((app) => app == id);
+
+  useEffect(() => {
+    const ids = getApps();
+    setInstallApps([...ids]);
+  }, [id]);
   if (loading) {
     return <Loading></Loading>;
   }
@@ -31,8 +42,9 @@ const Details = () => {
         <div className="flex flex-col md:flex-row justify-center items-center md:gap-10 bg-transparent  max-w-3xl mx-auto ">
           <figure>
             <img
-              src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
+              src={filtered.image}
               alt="Movie"
+              className="w-50 h-50 object-cover"
             />
           </figure>
           <div className="card-body">
@@ -43,13 +55,13 @@ const Details = () => {
                 {filtered.companyName}
               </span>
             </p>
-            <div className="flex justify-between items-center md:px-10 my-5">
+            <div className="flex justify-between items-center md:pr-10 my-1">
               <div className="flex flex-col gap-2 items-center">
                 <img src={download} alt="" className="w-6" />
                 <p>Downloads</p>
                 <h1 className="md:text-2xl font-bold ">{filtered.downloads}</h1>
               </div>
-              <div className="flex flex-col gap-2 items-center">
+              <div className="flex flex-col gap-2 items-center justify-start">
                 <img src={rating} alt="" className="w-6" />
                 <p>Average Ratings</p>
                 <h1 className="md:text-2xl font-bold ">{filtered.downloads}</h1>
@@ -60,8 +72,11 @@ const Details = () => {
                 <h1 className="md:text-2xl font-bold ">{filtered.reviews}K</h1>
               </div>
             </div>
-            <button className="btn btn-outline w-xs mt-5 text-white bg-[#00D390]">
-              Install Now ({filtered.size}) MB
+            <button
+              className="btn btn-outline w-xs mt-5 text-white bg-[#00D390]"
+              onClick={() => installHandel(filtered.id)}
+            >
+              {exits ? "Installed" : `Install now ${filtered.size}  MB`}
             </button>
           </div>
         </div>

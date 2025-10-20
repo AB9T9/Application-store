@@ -1,6 +1,6 @@
 [
   {
-    "image": "https://play-lh.googleusercontent.com/1.png",
+    "image": "https://i.ibb.co.com/yn38J7Q6/spotify.png",
     "title": "Spotify: Music and Podcasts",
     "companyName": "Spotify AB",
     "id": 1,
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "image": "https://play-lh.googleusercontent.com/2.png",
+    "image": "https://i.ibb.co.com/r2CxLzv6/insta.jpg",
     "title": "Instagram",
     "companyName": "Instagram",
     "id": 2,
@@ -36,7 +36,7 @@
     ]
   },
   {
-    "image": "https://play-lh.googleusercontent.com/3.png",
+    "image": "https://i.ibb.co.com/F4s3Ksty/tiktok.png",
     "title": "TikTok",
     "companyName": "TikTok Pte. Ltd.",
     "id": 3,
@@ -54,7 +54,7 @@
     ]
   },
   {
-    "image": "https://play-lh.googleusercontent.com/4.png",
+    "image": "https://i.ibb.co.com/dJ2Hkyvv/snap.jpg",
     "title": "Snapchat",
     "companyName": "Snap Inc",
     "id": 4,
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "image": "https://play-lh.googleusercontent.com/5.png",
+    "image": "https://i.ibb.co.com/d4ppTyZd/canva.jpg",
     "title": "Canva: Design, Photo & Video",
     "companyName": "Canva",
     "id": 5,
@@ -90,7 +90,7 @@
     ]
   },
   {
-    "image": "https://play-lh.googleusercontent.com/6.png",
+    "image": "https://i.ibb.co.com/Zzpvvz71/telegram.jpg",
     "title": "Telegram",
     "companyName": "Telegram FZ-LLC",
     "id": 6,
@@ -108,7 +108,7 @@
     ]
   },
   {
-    "image": "https://play-lh.googleusercontent.com/7.png",
+    "image": "https://i.ibb.co.com/MvwVwvN/map.jpg",
     "title": "Google Maps",
     "companyName": "Google LLC",
     "id": 7,
@@ -126,7 +126,7 @@
     ]
   },
   {
-    "image": "https://play-lh.googleusercontent.com/8.png",
+    "image": "https://i.ibb.co.com/jPv7B4gN/duilingo.png",
     "title": "Duolingo: Language Lessons",
     "companyName": "Duolingo",
     "id": 8,
@@ -144,7 +144,7 @@
     ]
   },
   {
-    "image": "https://play-lh.googleusercontent.com/9.png",
+    "image": "https://i.ibb.co.com/v4Nw6V3Q/netflix.jpg",
     "title": "Netflix",
     "companyName": "Netflix, Inc.",
     "id": 9,
@@ -162,7 +162,7 @@
     ]
   },
   {
-    "image": "https://play-lh.googleusercontent.com/10.png",
+    "image": "https://i.ibb.co.com/TBzDxZn9/amazon.png",
     "title": "Amazon Shopping",
     "companyName": "Amazon Mobile LLC",
     "id": 10,
@@ -181,183 +181,183 @@
   },
 
   {
-    "image": "https://play-lh.googleusercontent.com/1.png",
-    "title": "Spotify: Music and Podcasts Duplicate",
-    "companyName": "Spotify AB",
+    "image": "https://i.ibb.co.com/kg5WHy14/pubg.png",
+    "title": "PUBG MOBILE",
+    "companyName": "Level Infinite",
     "id": 11,
-    "description": "Stream millions of songs and podcasts. Listen offline and personalize playlists.",
-    "size": 60,
-    "reviews": 29,
-    "ratingAvg": 4.4,
-    "downloads": "1B",
-    "ratings": [
-      { "name": "1 star", "count": 1300000 },
-      { "name": "2 star", "count": 800000 },
-      { "name": "3 star", "count": 2500000 },
-      { "name": "4 star", "count": 7000000 },
-      { "name": "5 star", "count": 18000000 }
-    ]
-  },
-  {
-    "image": "https://play-lh.googleusercontent.com/2.png",
-    "title": "Instagram Duplicate",
-    "companyName": "Instagram",
-    "id": 12,
-    "description": "Share your moments, follow friends, and explore the world through photos and videos.",
-    "size": 120,
-    "reviews": 15,
-    "ratingAvg": 4.0,
-    "downloads": "5B",
-    "ratings": [
-      { "name": "1 star", "count": 9000000 },
-      { "name": "2 star", "count": 7000000 },
-      { "name": "3 star", "count": 18000000 },
-      { "name": "4 star", "count": 40000000 },
-      { "name": "5 star", "count": 76000000 }
-    ]
-  },
-  {
-    "image": "https://play-lh.googleusercontent.com/3.png",
-    "title": "TikTok Duplicate",
-    "companyName": "TikTok Pte. Ltd.",
-    "id": 13,
-    "description": "Short-form videos for every interest. Create, watch, and share endlessly.",
-    "size": 95,
-    "reviews": 53,
-    "ratingAvg": 4.5,
-    "downloads": "5B",
-    "ratings": [
-      { "name": "1 star", "count": 3000000 },
-      { "name": "2 star", "count": 1800000 },
-      { "name": "3 star", "count": 4200000 },
-      { "name": "4 star", "count": 10000000 },
-      { "name": "5 star", "count": 34000000 }
-    ]
-  },
-  {
-    "image": "https://play-lh.googleusercontent.com/4.png",
-    "title": "Snapchat Duplicate",
-    "companyName": "Snap Inc",
-    "id": 14,
-    "description": "Share moments instantly and stay connected with friends through Snaps.",
-    "size": 85,
-    "reviews": 32,
-    "ratingAvg": 4.2,
-    "downloads": "1B",
-    "ratings": [
-      { "name": "1 star", "count": 2400000 },
-      { "name": "2 star", "count": 1200000 },
-      { "name": "3 star", "count": 3000000 },
-      { "name": "4 star", "count": 7000000 },
-      { "name": "5 star", "count": 18400000 }
-    ]
-  },
-  {
-    "image": "https://play-lh.googleusercontent.com/5.png",
-    "title": "Canva: Design, Photo & Video Duplicate",
-    "companyName": "Canva",
-    "id": 15,
-    "description": "Design stunning graphics, videos, and social media posts easily.",
-    "size": 55,
-    "reviews": 140,
-    "ratingAvg": 4.8,
-    "downloads": "500M",
-    "ratings": [
-      { "name": "1 star", "count": 400000 },
-      { "name": "2 star", "count": 300000 },
-      { "name": "3 star", "count": 800000 },
-      { "name": "4 star", "count": 2600000 },
-      { "name": "5 star", "count": 9700000 }
-    ]
-  },
-  {
-    "image": "https://play-lh.googleusercontent.com/6.png",
-    "title": "Telegram Duplicate",
-    "companyName": "Telegram FZ-LLC",
-    "id": 16,
-    "description": "Fast, secure messaging with cloud sync and privacy features.",
-    "size": 38,
-    "reviews": 140,
-    "ratingAvg": 4.5,
-    "downloads": "1B",
-    "ratings": [
-      { "name": "1 star", "count": 500000 },
-      { "name": "2 star", "count": 400000 },
-      { "name": "3 star", "count": 1000000 },
-      { "name": "4 star", "count": 2800000 },
-      { "name": "5 star", "count": 9100000 }
-    ]
-  },
-  {
-    "image": "https://play-lh.googleusercontent.com/7.png",
-    "title": "Google Maps Duplicate",
-    "companyName": "Google LLC",
-    "id": 17,
-    "description": "Real-time GPS navigation, traffic, and local business information.",
-    "size": 150,
-    "reviews": 18,
+    "description": "Battle Royale game with intense multiplayer action and stunning graphics.",
+    "size": 750,
+    "reviews": 45,
     "ratingAvg": 4.3,
-    "downloads": "10B",
+    "downloads": "1B",
     "ratings": [
-      { "name": "1 star", "count": 1200000 },
-      { "name": "2 star", "count": 900000 },
-      { "name": "3 star", "count": 1800000 },
-      { "name": "4 star", "count": 4200000 },
-      { "name": "5 star", "count": 9600000 }
+      { "name": "1 star", "count": 5000000 },
+      { "name": "2 star", "count": 3000000 },
+      { "name": "3 star", "count": 7000000 },
+      { "name": "4 star", "count": 12000000 },
+      { "name": "5 star", "count": 25000000 }
     ]
   },
   {
-    "image": "https://play-lh.googleusercontent.com/8.png",
-    "title": "Duolingo: Language Lessons Duplicate",
-    "companyName": "Duolingo",
-    "id": 18,
-    "description": "Learn languages for free with fun and interactive lessons.",
-    "size": 40,
-    "reviews": 190,
-    "ratingAvg": 4.7,
-    "downloads": "500M",
+    "image": "https://i.ibb.co.com/B5MVgBwc/pinte.png",
+    "title": "Pinterest",
+    "companyName": "Pinterest, Inc.",
+    "id": 12,
+    "description": "Discover ideas for your next project, recipe, or outfit with visual inspiration.",
+    "size": 85,
+    "reviews": 12,
+    "ratingAvg": 4.6,
+    "downloads": "1B",
     "ratings": [
-      { "name": "1 star", "count": 300000 },
-      { "name": "2 star", "count": 200000 },
-      { "name": "3 star", "count": 500000 },
-      { "name": "4 star", "count": 2000000 },
+      { "name": "1 star", "count": 1000000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 2000000 },
+      { "name": "4 star", "count": 6000000 },
       { "name": "5 star", "count": 16000000 }
     ]
   },
   {
-    "image": "https://play-lh.googleusercontent.com/9.png",
-    "title": "Netflix Duplicate",
-    "companyName": "Netflix, Inc.",
-    "id": 19,
-    "description": "Stream your favorite movies, TV shows, and exclusive Netflix Originals.",
-    "size": 70,
-    "reviews": 150,
-    "ratingAvg": 4.3,
-    "downloads": "1B",
+    "image": "https://i.ibb.co.com/hxTsZZR9/amongus.jpg",
+    "title": "Among Us",
+    "companyName": "Innersloth LLC",
+    "id": 13,
+    "description": "Join crewmates in a multiplayer game of teamwork and betrayal.",
+    "size": 120,
+    "reviews": 80,
+    "ratingAvg": 4.2,
+    "downloads": "500M",
     "ratings": [
-      { "name": "1 star", "count": 900000 },
-      { "name": "2 star", "count": 600000 },
-      { "name": "3 star", "count": 1300000 },
-      { "name": "4 star", "count": 3200000 },
-      { "name": "5 star", "count": 8900000 }
+      { "name": "1 star", "count": 2000000 },
+      { "name": "2 star", "count": 1000000 },
+      { "name": "3 star", "count": 3000000 },
+      { "name": "4 star", "count": 8000000 },
+      { "name": "5 star", "count": 16000000 }
     ]
   },
   {
-    "image": "https://play-lh.googleusercontent.com/10.png",
-    "title": "Amazon Shopping Duplicate",
-    "companyName": "Amazon Mobile LLC",
-    "id": 20,
-    "description": "Shop millions of products and track orders with ease.",
-    "size": 80,
-    "reviews": 24,
-    "ratingAvg": 4.4,
-    "downloads": "1B",
+    "image": "https://i.ibb.co.com/cXyhVRTB/discord.jpg",
+    "title": "Discord",
+    "companyName": "Discord Inc.",
+    "id": 14,
+    "description": "Join voice, video, and text communities to chat with friends and gaming groups.",
+    "size": 90,
+    "reviews": 60,
+    "ratingAvg": 4.5,
+    "downloads": "500M",
     "ratings": [
-      { "name": "1 star", "count": 1200000 },
-      { "name": "2 star", "count": 800000 },
-      { "name": "3 star", "count": 2200000 },
-      { "name": "4 star", "count": 6000000 },
-      { "name": "5 star", "count": 13800000 }
+      { "name": "1 star", "count": 1000000 },
+      { "name": "2 star", "count": 700000 },
+      { "name": "3 star", "count": 1500000 },
+      { "name": "4 star", "count": 4000000 },
+      { "name": "5 star", "count": 10000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/WvsY3Rry/cap.png",
+    "title": "CapCut - Video Editor",
+    "companyName": "Bytedance Pte. Ltd.",
+    "id": 15,
+    "description": "Create stunning videos with transitions, filters, and soundtracks easily.",
+    "size": 90,
+    "reviews": 150,
+    "ratingAvg": 4.5,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 700000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 1000000 },
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 9000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/VcNbzyqK/redit.png",
+    "title": "Reddit",
+    "companyName": "Reddit Inc.",
+    "id": 16,
+    "description": "Dive into any topic with discussions, memes, and community insights.",
+    "size": 60,
+    "reviews": 38,
+    "ratingAvg": 4.4,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 1000000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 2500000 },
+      { "name": "5 star", "count": 7000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/rGXjgVgx/team.jpg",
+    "title": "Microsoft Teams",
+    "companyName": "Microsoft Corporation",
+    "id": 17,
+    "description": "Chat, meet, call, and collaborate all in one place with Teams.",
+    "size": 160,
+    "reviews": 45,
+    "ratingAvg": 4.1,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 800000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 1300000 },
+      { "name": "4 star", "count": 2800000 },
+      { "name": "5 star", "count": 6400000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/C5w8gYjN/khan.png",
+    "title": "Khan Academy",
+    "companyName": "Khan Academy",
+    "id": 18,
+    "description": "Learn anything for free — math, science, and more at your own pace.",
+    "size": 65,
+    "reviews": 22,
+    "ratingAvg": 4.7,
+    "downloads": "100M",
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 1500000 },
+      { "name": "5 star", "count": 8000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/NdmYTcjM/hbo.webp",
+    "title": "HBO Max",
+    "companyName": "WarnerMedia Global Digital Services",
+    "id": 19,
+    "description": "Stream blockbuster movies, hit series, and exclusive originals.",
+    "size": 85,
+    "reviews": 35,
+    "ratingAvg": 4.3,
+    "downloads": "100M",
+    "ratings": [
+      { "name": "1 star", "count": 600000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 900000 },
+      { "name": "4 star", "count": 2500000 },
+      { "name": "5 star", "count": 7200000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/zh81QM3T/ebay.png",
+    "title": "eBay Shopping",
+    "companyName": "eBay Mobile",
+    "id": 20,
+    "description": "Buy, sell, and save on millions of new and used items worldwide.",
+    "size": 75,
+    "reviews": 27,
+    "ratingAvg": 4.5,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 800000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 1500000 },
+      { "name": "4 star", "count": 4000000 },
+      { "name": "5 star", "count": 10000000 }
     ]
   }
 ]

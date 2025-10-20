@@ -28,13 +28,16 @@ const Navbar = () => {
             tabIndex="-1"
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
           >
-            <NavLink to="/home text-xl">Home</NavLink>
-            <NavLink to="/apps text-xl ">Apps</NavLink>
-            <NavLink to="/install text-xl">Installation</NavLink>
+            <NavLink to="/home">Home</NavLink>
+            <NavLink to="/apps">Apps</NavLink>
+            <NavLink to="/install">Installation</NavLink>
           </ul>
         </div>
-        <NavLink to="/home" className="btn btn-ghost text-xl ">
-          <img src={navicon} alt="" className="w-8" />
+        <NavLink
+          to="/home"
+          className="btn btn-ghost text-xl  text-violet-500 font-bold"
+        >
+          <img src={navicon} alt="" className="w-8 " />
           MYHERO.IO
         </NavLink>
       </div>

@@ -8,6 +8,7 @@ import appsNotFound from "../../src/assets/App-Error.png";
 const Apps = () => {
   const [appsData, loading] = useApps();
   const [password, setPassword] = useState("");
+
   const trimed = password.trim().toLocaleLowerCase();
   const searched = trimed
     ? appsData.filter((p) => p.title.toLocaleLowerCase().includes(trimed))
