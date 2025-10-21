@@ -77,6 +77,7 @@ const Details = () => {
             <button
               className="btn btn-outline w-xs mt-5 text-white bg-[#00D390]"
               onClick={() => installHandel(filtered.id)}
+              disabled={exits}
             >
               {exits ? "Installed" : `Install now ${filtered.size}  MB`}
             </button>

@@ -7,7 +7,7 @@ export const useApps = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    axios("../public/apps.json")
+    axios("/apps.json")
       .then((data) => setApps(data.data))
       .catch((err) => setError(err))
       .finally(() => setLoading(true));
