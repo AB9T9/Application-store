@@ -1,21 +1,19 @@
 import { IoMdDownload } from "react-icons/io";
 import { FaStar } from "react-icons/fa";
-import { getApps, removeItem } from "../utilities/Addtocart";
-import { useEffect, useState } from "react";
-import { useApps } from "../../Hook/useApps";
+
 const InstalledCart = ({ removeHandel, apps }) => {
   return (
-    <div className="flex justify-between items-center px-4 border mt-3">
-      <div className="flex gap-4">
+    <div className=" flex flex-col md:flex-row md:justify-between md:items-center px-4  mt-3 bg-white">
+      <div className="flex gap-4 items-center">
         <figure className="px-2 py-2">
           <img
             src={apps.image}
             alt="Shoes"
-            className="rounded-md w-20 object-cover"
+            className="rounded-full w-20 object-cover h-20"
           />
         </figure>
-        <div className="flex flex-col justify-start gap-2 ">
-          <h2 className="">{apps.title}</h2>
+        <div className="flex flex-col justify-start gap-3 ">
+          <h2 className="inter">{apps.title}</h2>
           <div className="flex items-center gap-2">
             <h1 className="flex items-center gap-1 text-green-700 font-semibold  px-2">
               <IoMdDownload />
@@ -25,13 +23,13 @@ const InstalledCart = ({ removeHandel, apps }) => {
               <FaStar />
               {apps.ratingAvg}
             </h1>
-            <h1 className="font-bold">{apps.size} MB</h1>
+            <h1>{apps.size} MB</h1>
           </div>
         </div>
       </div>
       <button
-        className="border rounded-md px-2 py-2 bg-green-400 text-white"
-        onClick={() => removeHandel(apps.id)}
+        className=" rounded-md px-2 py-2 my-2 bg-green-400 text-white"
+        onClick={() => removeHandel(apps.id, apps.title)}
       >
         Uninstall
       </button>

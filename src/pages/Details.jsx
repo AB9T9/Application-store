@@ -15,6 +15,7 @@ import {
 } from "recharts";
 import { getApps, setApps } from "../components/utilities/Addtocart";
 import { useEffect, useState } from "react";
+import { toast } from "react-toastify";
 
 const Details = () => {
   const [installedApps, setInstallApps] = useState([]);
@@ -25,6 +26,7 @@ const Details = () => {
   const installHandel = (id) => {
     setApps(id);
     setInstallApps([...installedApps, id]);
+    toast(filtered.title + " Installed");
   };
   const exits = installedApps.find((app) => app == id);
 
@@ -44,7 +46,7 @@ const Details = () => {
             <img
               src={filtered.image}
               alt="Movie"
-              className="w-50 h-50 object-cover"
+              className="w-50 h-50 object-cover mt-5"
             />
           </figure>
           <div className="card-body">

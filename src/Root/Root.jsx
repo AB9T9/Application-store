@@ -2,11 +2,11 @@ import React from "react";
 import Navbar from "../components/Navbar/Navbar";
 import { Outlet } from "react-router";
 import Footer from "../components/Footer/Footer";
-
+import { ToastContainer } from "react-toastify";
 const Root = () => {
   return (
-    <div className="max-w-7xl mx-auto border-1 ">
-      <div className="flex flex-col h-screen ">
+    <div className="max-w-7xl mx-auto bg-[#D2D2D2] ">
+      <div className="flex flex-col">
         <Navbar></Navbar>
         <div className="flex-1 px-5">
           <Outlet></Outlet>
@@ -14,6 +14,7 @@ const Root = () => {
 
         <Footer></Footer>
       </div>
+      <ToastContainer />
     </div>
   );
 };

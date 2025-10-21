@@ -5,6 +5,7 @@ import { useApps } from "../Hook/useApps";
 import Loading from "../components/loading/Loading";
 
 import InstalledCart from "../components/Apps/InstalledCart";
+import { toast } from "react-toastify";
 
 const Install = () => {
   const [apps, loading] = useApps();
@@ -25,11 +26,11 @@ const Install = () => {
     const parseId = apps.filter((appId) => id.includes(appId.id));
     setWishApps(parseId);
   }, [apps]);
-  const removeHandel = (ids) => {
+  const removeHandel = (ids, title) => {
     const removed = wishApps.filter((f) => f.id !== ids);
     setWishApps(removed);
     removeItem(ids);
-    alert("i am clicked ");
+    toast(title + " Uninstall");
   };
 
   if (loading) {
@@ -37,22 +38,20 @@ const Install = () => {
   }
   return (
     <div>
-      <div className="flex flex-col justify-center items-center ">
+      <div className="flex flex-col justify-center items-center md:py-10 ">
         <h1 className="text-4xl font-bold my-5">Your Installed Apps</h1>
         <p>Explore All Trending Apps on the Market developed by us</p>
       </div>
 
       <div className="flex justify-between items-center px-2">
-        <p>({wishApps.length})Apps Found</p>
-        <label htmlFor="" className="form-control w-full max-w-xs">
+        <p className="font-semibold text-xl ">{wishApps.length} Apps Found</p>
+        <label className="form-control md:w-full max-w-xs ">
           <select
-            name=""
-            id=""
-            className="select select-bordered"
+            className="select select-bordered "
             defaultValue={sortOrder}
             onChange={(e) => setSortOrder(e.target.value)}
           >
-            <option value="none">Sort by price</option>
+            <option value="none">Sort by size</option>
             <option value="asc">High -&gt;Low</option>
             <option value="dsc">Low -&gt;high</option>
           </select>

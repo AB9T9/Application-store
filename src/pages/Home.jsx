@@ -30,7 +30,7 @@ const Home = () => {
       </div>
       <NavLink
         to="/apps"
-        className=" btn flex justify-cente w-fit mx-auto mt-4"
+        className=" btn flex justify-cente w-fit mx-auto mt-4 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white"
       >
         See all
       </NavLink>

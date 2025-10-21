@@ -6,11 +6,11 @@ const Cart = ({ apps }) => {
   return (
     <NavLink to={`/details/${apps.id}`}>
       <div className="card bg-base-100  shadow-sm">
-        <figure className="px-2 py-2">
+        <figure className="px-2 py-5">
           <img
             src={apps.image}
             alt="Shoes"
-            className="rounded-xl w-42 h-42 object-cover"
+            className="rounded-xl  w-full  md:w-42 h-30 md:h-42 object-cover"
           />
         </figure>
         <div className="card-body items-center text-center">
