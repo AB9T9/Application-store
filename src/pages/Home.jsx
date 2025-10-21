@@ -23,7 +23,7 @@ const Home = () => {
           Explore All Trending Apps on the Market developed by us
         </p>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-4 my-5 gap-5">
+      <div className="grid grid-cols-1 md:grid-cols-4 my-5 gap-5 md:gap-10">
         {filterd.map((apps) => (
           <Cart apps={apps} key={apps.id}></Cart>
         ))}

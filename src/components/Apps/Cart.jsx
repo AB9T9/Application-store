@@ -5,12 +5,12 @@ import { NavLink } from "react-router";
 const Cart = ({ apps }) => {
   return (
     <NavLink to={`/details/${apps.id}`}>
-      <div className="card bg-base-100  shadow-sm">
-        <figure className="px-2 py-5">
+      <div className="card bg-base-100  shadow-sm hover:shadow-xl hover:scale-110 transition-transform duration-300">
+        <figure className="  w-40 h-50 mx-auto">
           <img
             src={apps.image}
             alt="Shoes"
-            className="rounded-xl  w-full  md:w-42 h-30 md:h-42 object-cover"
+            className="rounded-xl  w-full  md:w-42 h-30 md:h-40 object-cover"
           />
         </figure>
         <div className="card-body items-center text-center">

@@ -1,4 +1,4 @@
-import { useParams } from "react-router";
+import { Link, useParams } from "react-router";
 import { useApps } from "../Hook/useApps";
 import Loading from "../components/loading/Loading";
 import download from "../assets/icon-downloads.png";
@@ -81,12 +81,15 @@ const Details = () => {
             >
               {exits ? "Installed" : `Install now ${filtered.size}  MB`}
             </button>
+            <Link to="/install" className="btn btn-outline md:hidden">
+              See Install apps
+            </Link>
           </div>
         </div>
 
         {/*For the re-chart here */}
 
-        <div className="flex justify-center my-8">
+        <div className="flex justify-center my-5">
           {
             <BarChart
               width={600}
