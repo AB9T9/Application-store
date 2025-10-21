@@ -36,7 +36,7 @@ const Apps = () => {
           onChange={(e) => setPassword(e.target.value)}
           defaultValue={password}
           type="text"
-          className=" px-4 py-2 bg-white rounded-md"
+          className=" px-1 md:px-4 py-2 bg-white"
           placeholder="Search apps"
         />
       </div>

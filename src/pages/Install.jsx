@@ -40,12 +40,16 @@ const Install = () => {
     <div>
       <div className="flex flex-col justify-center items-center md:py-10 ">
         <h1 className="text-4xl font-bold my-5">Your Installed Apps</h1>
-        <p>Explore All Trending Apps on the Market developed by us</p>
+        <p className="text-center mb-4">
+          Explore All Trending Apps on the Market developed by us
+        </p>
       </div>
 
       <div className="flex justify-between items-center px-2">
-        <p className="font-semibold text-xl ">{wishApps.length} Apps Found</p>
-        <label className="form-control md:w-full max-w-xs ">
+        <p className="font-semibold text-sm md:text-xl ">
+          {wishApps.length} Apps Found
+        </p>
+        <label className="form-control w-40  md:w-xs">
           <select
             className="select select-bordered "
             defaultValue={sortOrder}

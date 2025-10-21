@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div className="navbar bg-base-100 shadow-sm">
       <div className="navbar-start">
-        <div className="dropdown">
+        <div className="dropdown ">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -35,7 +35,7 @@ const Navbar = () => {
         </div>
         <NavLink
           to="/home"
-          className="btn btn-ghost text-xl  text-violet-500 font-bold"
+          className="flex items-center gap-2 text-sm md:text-xl  text-violet-500 font-bold"
         >
           <img src={navicon} alt="" className="w-8 " />
           MYHERO.IO
@@ -56,10 +56,10 @@ const Navbar = () => {
       </div>
       <div className="navbar-end">
         <NavLink
-          className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white"
+          className="btn text-sm md:text-base p-1 md:p-3 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white"
           to="https://github.com/AB9T9"
         >
-          <FaGithub className="text-white text-xl" /> Contribute
+          <FaGithub className="text-white text-sm md:text-xl" /> Contribute
         </NavLink>
       </div>
     </div>

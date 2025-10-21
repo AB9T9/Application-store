@@ -46,11 +46,11 @@ const Details = () => {
             <img
               src={filtered.image}
               alt="Movie"
-              className="w-50 h-50 object-cover mt-5"
+              className="w-50 h-50 object-cover mt-5 rounded-xl"
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title text-2xl">{filtered.title}</h2>
+            <h2 className="card-title text-2xl inter">{filtered.title}</h2>
             <p>
               Developed By :{" "}
               <span className="text-violet-500 font-bold text-xl">
@@ -81,8 +81,11 @@ const Details = () => {
             >
               {exits ? "Installed" : `Install now ${filtered.size}  MB`}
             </button>
-            <Link to="/install" className="btn btn-outline md:hidden">
-              See Install apps
+            <Link
+              to="/install"
+              className="btn btn-outline md:hidden bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white"
+            >
+              See Installed apps
             </Link>
           </div>
         </div>
