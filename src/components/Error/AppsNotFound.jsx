@@ -4,9 +4,15 @@ import { NavLink } from "react-router";
 const AppsNotFound = () => {
   return (
     <div className="flex flex-col justify-center items-center gap-4">
-      <img src={appsNotFound} alt="" className="max-w-3xl mx-auto" />
-      <h1 className="text-4xl font-semibold ">OPPS!! APP NOT FOUND</h1>
-      <p>
+      <img
+        src={appsNotFound}
+        alt=""
+        className="max-w-xs md:max-w-3xl mx-auto"
+      />
+      <h1 className="text-2xl md:text-4xl font-semibold text-center ">
+        OPPS!! APP NOT FOUND
+      </h1>
+      <p className="text-center ">
         The App you are requesting is not found on our system. please try
         another apps
       </p>

@@ -10,7 +10,7 @@ const Cart = ({ apps }) => {
           <img
             src={apps.image}
             alt="Shoes"
-            className="rounded-xl  w-full  md:w-42 h-30 md:h-40 object-cover"
+            className="rounded-xl  w-full  md:w-42 h-35 md:h-40 object-cover"
           />
         </figure>
         <div className="card-body items-center text-center">

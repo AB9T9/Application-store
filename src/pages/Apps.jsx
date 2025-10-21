@@ -29,7 +29,9 @@ const Apps = () => {
         </p>
       </div>
       <div className="flex justify-between md:px-5 my-4 items-center">
-        <p className="text-xl font-semibold">({searched.length}) Apps Found</p>
+        <p className="text-sm md:text-xl font-semibold ">
+          ({searched.length}) Apps Found
+        </p>
         <input
           onChange={(e) => setPassword(e.target.value)}
           defaultValue={password}
